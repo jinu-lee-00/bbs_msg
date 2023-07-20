@@ -15,7 +15,7 @@ public class MsgDAO {
 //		try {
 //			String dbURL = "jdbc:mariadb://localhost/dlwlsdn38";
 //			String dbID = "dlwlsdn38";
-//			String dbPassword = "rhdrkfclwk13!";
+//			String dbPassword = "WRITE PASSWORD HERE";
 //			Class.forName("org.mariadb.jdbc.Driver"); // 드라이버 찾기
 //			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 //		} catch(Exception e) {
