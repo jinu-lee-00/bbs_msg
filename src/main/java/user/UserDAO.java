@@ -15,24 +15,26 @@ public class UserDAO {
 	private PreparedStatement pstmt2;
 	private ResultSet rs2;
 
-	
-//	public UserDAO() {
-//		try {
-//			String dbURL = "jdbc:mariadb://localhost/dlwlsdn38";
-//			String dbID = "dlwlsdn38";
-//			String dbPassword = "rhdrkfclwk13!";
-//			Class.forName("org.mariadb.jdbc.Driver"); // 드라이버 찾기
-//			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
-//		} catch(Exception e) {
-//			e.printStackTrace();
-//		}
-//	}
-	
+
+// IF YOU USE MariaDB
+	// public UserDAO() {
+	// 	try {
+	// 		String dbURL = "jdbc:mariadb://localhost/dlwlsdn38";
+	// 		String dbID = "dlwlsdn38";
+	// 		String dbPassword = "WRITE YOUR PASSWORD HERE";
+	// 		Class.forName("org.mariadb.jdbc.Driver"); // 드라이버 찾기
+	// 		conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
+	// 	} catch(Exception e) {
+	// 		e.printStackTrace();
+	// 	}
+	// }
+
+// IF YOU USE MySQL
 	public UserDAO() {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/BBS";
 			String dbID = "root";
-			String dbPassword = "6530";
+			String dbPassword = "WRITE YOUR PASSWORD HERE";
 			Class.forName("com.mysql.jdbc.Driver"); // 드라이버 찾기
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch(Exception e) {
