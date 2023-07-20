@@ -30,7 +30,7 @@ public class BbsDAO {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/BBS";
 			String dbID = "root";
-			String dbPassword = "6530";
+			String dbPassword = "WRITE PASSWORD HERE";
 			Class.forName("com.mysql.jdbc.Driver"); // 드라이버 찾기
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch(Exception e) {
